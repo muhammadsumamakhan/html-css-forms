@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+
+        ul{
+            width: 635px;
+            background-color: gray;
+            color: black;
+            padding: 10px 0;
+            /* display: flex; */
+            
+            
+        }
+        ul>li{
+           display: inline;
+           
+        }
+
+        #step-one{
+            background-color: #03a1fc;
+            color: black;
+            padding: 10px 20px 10px 20px;
+            font-size: 20px;
+        }
+
+        .other-step{
+            background-color: #b0b5b3;
+            color: black;
+            padding: 10px 20px 10px 20px;
+            font-size: 20px;
+        }
+
+        fieldset{
+            font-size: 20px;
+            width: 600px;
+            
+
+        }
+
+        /* input{
+            width: 500px;
+            height: 20px;
+        } */
+
+        .width-textarea{
+            width:350px;
+        }
+    </style>
+</head>
+<body>
+    
+  
+    <!-- <ul>
+        <li id="step-one">Step 1: Acccount</li>
+        <li class="other-step">Step 2: Personal Details</li>
+        <li class="other-step">Step 3: Your Review</li>
+    </ul> -->
+
+    <!-- =====================(Step2: Your Review)======================= -->
+
+        <fieldset>
+            <legend>Your Review</legend>
+
+            <br>
+
+            <!-- ---------------(How did you hear about us)------------------ -->
+            <label for="about_us">How did you hear about us</label>
+            <select name="" id="about_us">
+                <option value="" disabled selected>Select your option</option>
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+            </select><br><br>
+
+            <!-- ---------------(Would you visit again?)------------------ -->
+        <label for="Would you visit again">Would you visit again?</label><br>
+        <input type="radio" name="Would you visit again" id="yes"   value="yes"><label for="yes">Yes</label>
+        <input type="radio" name="Would you visit again" id="no"    value="no"><label for="no">No</label>
+        <input type="radio" name="Would you visit again" id="maybe" value="maybe"><label for="maybe">Maybe</label>
+            
+        <br><br>
+
+            <!-- ---------------(Comments:)------------------ -->
+            <label for="comments">Comments:</label><br>
+            <textarea name="" id="comments" rows="5" class="width-textarea" placeholder="Enter your comments here..." ></textarea><br><br>
+            
+            <!-- ---------------(Documents)------------------ -->
+            <label for="documents">Documents:</label><br>
+            <input type="file" name="" id="documents"><br><br>
+            
+            <input type="checkbox" name="Sign me up for email updates" id="sign_me"><label for="sign_me">Sign me up for email updates</label><br><br>
+
+            <!-- ---------------(back-arrow)------------------ -->
+            <a href="./step-two.html"><img src="./images/back-arrow.jpg" alt="" width="120px" ></a>
+
+            <!-- ---------------(Next-arrow)------------------ -->
+            <a href="./thankyou.html"><img src="./images/submit.jpg" alt="" width="120px" ></a>
+
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
