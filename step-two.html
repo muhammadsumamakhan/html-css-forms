@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+
+        ul{
+            width: 635px;
+            background-color: gray;
+            color: black;
+            padding: 10px 0;
+            /* display: flex; */
+            
+            
+        }
+        ul>li{
+           display: inline;
+           
+        }
+
+        #step-one{
+            background-color: #03a1fc;
+            color: black;
+            padding: 10px 20px 10px 20px;
+            font-size: 20px;
+        }
+
+        .other-step{
+            background-color: #b0b5b3;
+            color: black;
+            padding: 10px 20px 10px 20px;
+            font-size: 20px;
+        }
+
+        fieldset{
+            font-size: 20px;
+            width: 600px;
+            
+
+        }
+
+        input{
+            width: 500px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+  
+    <!-- <ul>
+        <li id="step-one">Step 1: Acccount</li>
+        <li class="other-step">Step 2: Personal Details</li>
+        <li class="other-step">Step 3: Your Review</li>
+    </ul> -->
+
+    <!-- =====================(Step2: Personal Delaits)======================= -->
+
+        <fieldset>
+            <legend>Personal Delaits</legend>
+
+            <br>
+
+            <!-- ---------------(First Name:)------------------ -->
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name" required placeholder="Enter First Name"><br><br>
+
+            <!-- ---------------(Last Name:)------------------ -->
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" required placeholder="Enter Last Name"><br><br>
+
+            <!-- ---------------(Password:)------------------ -->
+            <label for="confirm_password">Confirm Password:</label><br>
+            <input type="password" id="confirm_password" required placeholder="Enter Confirm Password"><br><br>
+            
+            <!-- ---------------(CNIC:)------------------ -->
+            <label for="cnic">CNIC:</label><br>
+            <input type="number" id="cnic" required placeholder="xxxxx-xxxxxxx-x"><br><br>
+
+            <!-- ---------------(Social Link:)------------------ -->
+            <label for="social_link">Social Link:</label><br>
+            <input type="text" id="social_link" required placeholder="Enter Facebook/Linkedin profile linke"><br><br>
+            
+            <!-- ---------------(back-arrow)------------------ -->
+            <a href="./step-one.html"><img src="./images/back-arrow.jpg" alt="" width="120px" ></a>
+
+            <!-- ---------------(Next-arrow)------------------ -->
+            <a href="./step-three.html"><img src="./images/Next-arrow.jpg" alt="" width="120px" ></a>
+
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
